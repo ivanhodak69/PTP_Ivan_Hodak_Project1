@@ -4164,7 +4164,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "10k"
 			(at 88.9 100.3299 0)
 			(effects
 				(font
@@ -4290,7 +4290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bed63a2-af3e-4869-b0f3-219a04f9e545")
-		(property "Reference" "D1"
+		(property "Reference" "D4"
 			(at 114.3 54.3559 90)
 			(effects
 				(font
@@ -4344,7 +4344,7 @@
 		(instances
 			(project ""
 				(path "/27044ca4-d0f9-45b4-abc4-d126f8e30ea6"
-					(reference "D1")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4648,7 +4648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e47c6fa-d88c-4fc0-aa69-ea095dbe4a4b")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 220.0275 74.93 0)
 			(effects
 				(font
@@ -4710,7 +4710,7 @@
 		(instances
 			(project "PTP_Ivan_Hodak_Project1"
 				(path "/27044ca4-d0f9-45b4-abc4-d126f8e30ea6"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4726,7 +4726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e9e9dc0-0054-44e5-8b8a-aef8c1d9a5ed")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 220.0275 66.04 0)
 			(effects
 				(font
@@ -4788,7 +4788,7 @@
 		(instances
 			(project ""
 				(path "/27044ca4-d0f9-45b4-abc4-d126f8e30ea6"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4804,7 +4804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22ee7ec0-d37e-44c2-af9f-25552643b873")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 220.0275 57.15 0)
 			(effects
 				(font
@@ -4866,7 +4866,7 @@
 		(instances
 			(project ""
 				(path "/27044ca4-d0f9-45b4-abc4-d126f8e30ea6"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4882,8 +4882,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37a70c0d-3d27-445b-b637-ac5b9d7dcc59")
-		(property "Reference" "R2"
-			(at 229.87 74.8087 90)
+		(property "Reference" "R3"
+			(at 229.87 74.93 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4891,7 +4891,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 229.87 77.3487 90)
+			(at 229.87 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +4934,7 @@
 		(instances
 			(project "PTP_Ivan_Hodak_Project1"
 				(path "/27044ca4-d0f9-45b4-abc4-d126f8e30ea6"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5290,7 +5290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "451b554d-d051-4fa5-9b36-b466ae5af91e")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 87.63 26.67 0)
 			(effects
 				(font
@@ -5362,7 +5362,7 @@
 		(instances
 			(project ""
 				(path "/27044ca4-d0f9-45b4-abc4-d126f8e30ea6"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5517,7 +5517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "690d5366-fc7d-4dbf-b6cc-de71cb9d4f23")
-		(property "Reference" "R1"
+		(property "Reference" "R4"
 			(at 229.87 83.82 90)
 			(effects
 				(font
@@ -5569,7 +5569,7 @@
 		(instances
 			(project ""
 				(path "/27044ca4-d0f9-45b4-abc4-d126f8e30ea6"
-					(reference "R1")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5653,7 +5653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "757b0ce5-0963-49e8-beb0-fe73e0cb7835")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 132.08 52.4509 0)
 			(effects
 				(font
@@ -5707,7 +5707,7 @@
 		(instances
 			(project ""
 				(path "/27044ca4-d0f9-45b4-abc4-d126f8e30ea6"
-					(reference "C5")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6277,7 +6277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c612a442-ad3f-4cdd-bc6b-fc8ad1d34548")
-		(property "Reference" "R8"
+		(property "Reference" "R1"
 			(at 229.87 57.15 90)
 			(effects
 				(font
@@ -6329,7 +6329,7 @@
 		(instances
 			(project "PTP_Ivan_Hodak_Project1"
 				(path "/27044ca4-d0f9-45b4-abc4-d126f8e30ea6"
-					(reference "R8")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6733,7 +6733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfabf983-d85b-4374-a825-ce8df4f8f7ae")
-		(property "Reference" "R7"
+		(property "Reference" "R2"
 			(at 229.87 66.04 90)
 			(effects
 				(font
@@ -6785,7 +6785,7 @@
 		(instances
 			(project "PTP_Ivan_Hodak_Project1"
 				(path "/27044ca4-d0f9-45b4-abc4-d126f8e30ea6"
-					(reference "R7")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7045,7 +7045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec3f7e7a-3c8e-47f5-a618-72d85b1c8cd5")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 58.42 54.9909 0)
 			(effects
 				(font
@@ -7099,7 +7099,7 @@
 		(instances
 			(project ""
 				(path "/27044ca4-d0f9-45b4-abc4-d126f8e30ea6"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
