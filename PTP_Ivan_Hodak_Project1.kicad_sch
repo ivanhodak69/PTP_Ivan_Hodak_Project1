@@ -4153,6 +4153,12 @@
 		(uuid "e2d17857-6ac4-4adf-a879-b774cd9fbf0a")
 	)
 	(junction
+		(at 25.4 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e37093f7-f9dc-4575-9c4f-a96ec082763c")
+	)
+	(junction
 		(at 73.66 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4653,6 +4659,16 @@
 			(type default)
 		)
 		(uuid "35ec84c9-47fe-4166-808c-6f92fa5fded7")
+	)
+	(wire
+		(pts
+			(xy 31.75 38.1) (xy 25.4 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3614a533-87aa-4a11-983d-c27964a5f6eb")
 	)
 	(wire
 		(pts
@@ -5516,6 +5532,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 36.83) (xy 31.75 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9370badf-134e-40fa-a12f-c084060d0e4b")
+	)
+	(wire
+		(pts
 			(xy 243.84 100.33) (xy 243.84 111.76)
 		)
 		(stroke
@@ -5906,7 +5932,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 27.94) (xy 38.1 25.4)
+			(xy 38.1 27.94) (xy 38.1 21.59)
 		)
 		(stroke
 			(width 0)
@@ -7502,7 +7528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b3c85fa-7e4c-45ed-ac88-d3fc0751f1fb")
-		(property "Reference" "U1"
+		(property "Reference" "U0"
 			(at 55.4833 148.59 0)
 			(effects
 				(font
@@ -7574,7 +7600,7 @@
 		(instances
 			(project ""
 				(path "/27044ca4-d0f9-45b4-abc4-d126f8e30ea6"
-					(reference "U1")
+					(reference "U0")
 					(unit 1)
 				)
 			)
@@ -8352,7 +8378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b3dfd26-01f4-44b9-989b-6aa31d6017fd")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 35.56 151.1362 0)
 			(effects
 				(font
@@ -8406,7 +8432,7 @@
 		(instances
 			(project ""
 				(path "/27044ca4-d0f9-45b4-abc4-d126f8e30ea6"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8548,7 +8574,7 @@
 	)
 	(symbol
 		(lib_id "power:VD")
-		(at 38.1 25.4 0)
+		(at 38.1 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8557,7 +8583,7 @@
 		(fields_autoplaced yes)
 		(uuid "42f4dd19-9094-4e9f-819a-fe44faf8961a")
 		(property "Reference" "#PWR012"
-			(at 38.1 29.21 0)
+			(at 38.1 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8566,7 +8592,7 @@
 			)
 		)
 		(property "Value" "VD"
-			(at 38.1 20.32 0)
+			(at 38.1 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8574,7 +8600,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 25.4 0)
+			(at 38.1 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8583,7 +8609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 25.4 0)
+			(at 38.1 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8592,7 +8618,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VD\""
-			(at 38.1 25.4 0)
+			(at 38.1 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8622,7 +8648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44c3123e-ad38-4fbc-86c5-dfc0e13c74e9")
-		(property "Reference" "C1"
+		(property "Reference" "C5"
 			(at 26.67 176.5362 0)
 			(effects
 				(font
@@ -8676,7 +8702,7 @@
 		(instances
 			(project ""
 				(path "/27044ca4-d0f9-45b4-abc4-d126f8e30ea6"
-					(reference "C1")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9037,6 +9063,72 @@
 			(project ""
 				(path "/27044ca4-d0f9-45b4-abc4-d126f8e30ea6"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 31.75 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "653b37b4-cbd9-4ff1-b829-cacb3ee09d4a")
+		(property "Reference" "#FLG02"
+			(at 31.75 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 31.75 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 31.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12e02211-323c-42bb-b062-6c381df668b1")
+		)
+		(instances
+			(project ""
+				(path "/27044ca4-d0f9-45b4-abc4-d126f8e30ea6"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -9741,7 +9833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f7365ef-f834-4be9-ae14-b2fdc2ecec32")
-		(property "Reference" "R4"
+		(property "Reference" "R20"
 			(at 26.67 162.5599 0)
 			(effects
 				(font
@@ -9795,7 +9887,7 @@
 		(instances
 			(project "PTP_Ivan_Hodak_Project1"
 				(path "/27044ca4-d0f9-45b4-abc4-d126f8e30ea6"
-					(reference "R4")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -10654,7 +10746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5b45f8f-43f7-462e-ac94-22d48a33e2d7")
-		(property "Reference" "R3"
+		(property "Reference" "R19"
 			(at 26.67 149.8599 0)
 			(effects
 				(font
@@ -10708,7 +10800,7 @@
 		(instances
 			(project ""
 				(path "/27044ca4-d0f9-45b4-abc4-d126f8e30ea6"
-					(reference "R3")
+					(reference "R19")
 					(unit 1)
 				)
 			)
