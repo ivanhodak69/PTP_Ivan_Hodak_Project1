@@ -2994,8 +2994,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW1"
-				(at 0 -8.89 0)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3003,7 +3003,7 @@
 				)
 			)
 			(property "Value" "SW_SPDT"
-				(at 0 -6.35 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3108,14 +3108,14 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "A"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3126,14 +3126,14 @@
 				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "B"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7075,7 +7075,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 69.85 96.52 0)
 			(effects
 				(font
@@ -7094,6 +7094,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 69.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 69.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" ""
 			(at 69.85 96.52 0)
 			(effects
 				(font
@@ -7210,7 +7228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal"
 			(at 95.25 48.26 90)
 			(effects
 				(font
@@ -7230,6 +7248,24 @@
 		)
 		(property "Description" "Schottky diode, small symbol, filled shape"
 			(at 95.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SMC DIODE SOLUTIONS"
+			(at 95.25 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "11DQ06TA"
+			(at 95.25 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7476,7 +7512,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 35.56 87.63 0)
 			(effects
 				(font
@@ -7496,6 +7532,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 35.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG"
+			(at 35.56 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "CL31B105KBHNNNE"
+			(at 35.56 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7565,6 +7619,24 @@
 			)
 		)
 		(property "Description" "Precision Timers, 555 compatible,  PDIP-8"
+			(at 53.34 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TEXAS INSTRUMENTS"
+			(at 53.34 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "NE555P"
 			(at 53.34 161.29 0)
 			(effects
 				(font
@@ -7998,7 +8070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_5.5mm"
 			(at 184.15 139.7 0)
 			(effects
 				(font
@@ -8127,7 +8199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 120.65 93.98 0)
 			(effects
 				(font
@@ -8223,7 +8295,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "429dafd2-7c54-4f1a-8a8f-19a7046efbd2")
+			(uuid "429dafd2-7c54-4f1a-8a8f-19a7046efbd3")
 		)
 		(instances
 			(project ""
@@ -8326,7 +8398,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 266.7 39.37 0)
 			(effects
 				(font
@@ -8396,7 +8468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 33.02 152.4 0)
 			(effects
 				(font
@@ -8415,6 +8487,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 33.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG"
+			(at 33.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "CL31B104KBCNNNC"
 			(at 33.02 152.4 0)
 			(effects
 				(font
@@ -8464,7 +8554,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Radial_D7.2mm_P3.00mm_Murata_1700"
 			(at 101.6 33.02 0)
 			(effects
 				(font
@@ -8484,6 +8574,24 @@
 		)
 		(property "Description" "Inductor"
 			(at 101.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FERROCORE"
+			(at 101.6 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "COIL0608-0.33"
+			(at 101.6 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8666,7 +8774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 24.13 177.8 0)
 			(effects
 				(font
@@ -8685,6 +8793,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 24.13 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG"
+			(at 24.13 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "CL31A106KBHNNNE"
 			(at 24.13 177.8 0)
 			(effects
 				(font
@@ -8763,6 +8889,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufcaturer" "ONSEMI"
+			(at 71.12 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "LM2574N-5G"
+			(at 71.12 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "50af8d15-ce0a-4cc2-ba0f-d7288a69f582")
 		)
@@ -8824,7 +8968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_5.5mm"
 			(at 184.15 146.05 0)
 			(effects
 				(font
@@ -8888,7 +9032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
 			(at 60.96 102.87 0)
 			(effects
 				(font
@@ -8907,6 +9051,24 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 60.96 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 60.96 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "OS102011MS2QN1C"
 			(at 60.96 102.87 0)
 			(effects
 				(font
@@ -9026,7 +9188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 144.78 93.98 0)
 			(effects
 				(font
@@ -9054,10 +9216,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f0f35e5f-4680-4dc8-8e8b-45d69b8b06fc")
+			(uuid "f0f35e5f-4680-4dc8-8e8b-45d69b8b06fd")
 		)
 		(pin "2"
-			(uuid "6b76906b-9df0-482a-a6a6-a933cd81d905")
+			(uuid "6b76906b-9df0-482a-a6a6-a933cd81d906")
 		)
 		(instances
 			(project ""
@@ -9245,7 +9407,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 266.7 48.26 0)
 			(effects
 				(font
@@ -9313,7 +9475,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type011_RT05502HBLC_1x02_P5.00mm_Horizontal"
 			(at 17.78 40.64 0)
 			(effects
 				(font
@@ -9332,6 +9494,24 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 17.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DEGSON ELECTRONICS"
+			(at 17.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "DG301-5.0-02P-12-00A(H)"
 			(at 17.78 40.64 0)
 			(effects
 				(font
@@ -9383,7 +9563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 112.7252 52.07 0)
 			(effects
 				(font
@@ -9402,6 +9582,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMWHA"
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "RD1A227M05011BB"
 			(at 111.76 48.26 0)
 			(effects
 				(font
@@ -9481,15 +9679,6 @@
 			)
 		)
 		(property "Manufacturer" "TEXAS INSTRUMENTS"
-			(at 228.6 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer oart number" "SN74LS47N"
 			(at 228.6 92.71 0)
 			(effects
 				(font
@@ -9712,7 +9901,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 31.75 95.25 0)
 			(effects
 				(font
@@ -9731,6 +9920,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 31.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "microswitch TACT"
+			(at 31.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "TACT-64N-F"
 			(at 31.75 100.33 0)
 			(effects
 				(font
@@ -9781,7 +9988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 96.52 95.25 0)
 			(effects
 				(font
@@ -9851,7 +10058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 24.13 163.83 0)
 			(effects
 				(font
@@ -9870,6 +10077,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 24.13 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROYALOHM"
+			(at 24.13 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "1206S4J0473T5E"
 			(at 24.13 163.83 0)
 			(effects
 				(font
@@ -9938,6 +10163,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 123.19 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TEXAS INSTRUMENTS"
+			(at 123.19 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "SN74LVC1G11DBVR"
 			(at 123.19 163.83 0)
 			(effects
 				(font
@@ -10096,7 +10339,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a924cfc6-aee4-4d70-8246-acc06aa69279")
+			(uuid "a924cfc6-aee4-4d70-8246-acc06aa6927a")
 		)
 		(instances
 			(project ""
@@ -10244,10 +10487,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "482490ea-0250-45d6-93b9-a0efdc778331")
+			(uuid "482490ea-0250-45d6-93b9-a0efdc778332")
 		)
 		(pin "2"
-			(uuid "7cb0c054-d1a3-4cc5-b848-82f66983a620")
+			(uuid "7cb0c054-d1a3-4cc5-b848-82f66983a621")
 		)
 		(instances
 			(project ""
@@ -10286,7 +10529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_5.5mm"
 			(at 184.15 158.75 0)
 			(effects
 				(font
@@ -10376,7 +10619,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "429dafd2-7c54-4f1a-8a8f-19a7046efbd2")
+			(uuid "429dafd2-7c54-4f1a-8a8f-19a7046efbd4")
 		)
 		(instances
 			(project ""
@@ -10524,10 +10767,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "482490ea-0250-45d6-93b9-a0efdc778331")
+			(uuid "482490ea-0250-45d6-93b9-a0efdc778333")
 		)
 		(pin "2"
-			(uuid "7cb0c054-d1a3-4cc5-b848-82f66983a620")
+			(uuid "7cb0c054-d1a3-4cc5-b848-82f66983a622")
 		)
 		(instances
 			(project ""
@@ -10659,7 +10902,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5630c69b-5f20-4262-8d60-df0e6bde661b")
+			(uuid "5630c69b-5f20-4262-8d60-df0e6bde661c")
 		)
 		(instances
 			(project ""
@@ -10725,7 +10968,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a924cfc6-aee4-4d70-8246-acc06aa69279")
+			(uuid "a924cfc6-aee4-4d70-8246-acc06aa6927b")
 		)
 		(instances
 			(project ""
@@ -10764,7 +11007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 24.13 151.13 0)
 			(effects
 				(font
@@ -10783,6 +11026,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 24.13 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROYALOHM"
+			(at 24.13 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "1206S4J0473T5E"
 			(at 24.13 151.13 0)
 			(effects
 				(font
@@ -10919,7 +11180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_5.5mm"
 			(at 184.15 152.4 0)
 			(effects
 				(font
@@ -11010,7 +11271,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a924cfc6-aee4-4d70-8246-acc06aa69279")
+			(uuid "a924cfc6-aee4-4d70-8246-acc06aa6927c")
 		)
 		(instances
 			(project ""
@@ -11092,10 +11353,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "482490ea-0250-45d6-93b9-a0efdc778331")
+			(uuid "482490ea-0250-45d6-93b9-a0efdc778334")
 		)
 		(pin "2"
-			(uuid "7cb0c054-d1a3-4cc5-b848-82f66983a620")
+			(uuid "7cb0c054-d1a3-4cc5-b848-82f66983a623")
 		)
 		(instances
 			(project ""
@@ -11133,7 +11394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 168.91 93.98 0)
 			(effects
 				(font
@@ -11161,10 +11422,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f0f35e5f-4680-4dc8-8e8b-45d69b8b06fc")
+			(uuid "f0f35e5f-4680-4dc8-8e8b-45d69b8b06fe")
 		)
 		(pin "2"
-			(uuid "6b76906b-9df0-482a-a6a6-a933cd81d905")
+			(uuid "6b76906b-9df0-482a-a6a6-a933cd81d907")
 		)
 		(instances
 			(project ""
@@ -11360,7 +11621,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5630c69b-5f20-4262-8d60-df0e6bde661b")
+			(uuid "5630c69b-5f20-4262-8d60-df0e6bde661d")
 		)
 		(instances
 			(project ""
@@ -11446,52 +11707,52 @@
 			)
 		)
 		(pin "4"
-			(uuid "ad322cc8-4a31-429a-8a75-8bb74debfc32")
+			(uuid "ad322cc8-4a31-429a-8a75-8bb74debfc33")
 		)
 		(pin "7"
-			(uuid "2c39ac3e-2e00-4609-86f1-7f5e3eaecdd2")
+			(uuid "2c39ac3e-2e00-4609-86f1-7f5e3eaecdd3")
 		)
 		(pin "6"
-			(uuid "a96a4512-64da-45c9-8991-7688ba8b5e1a")
+			(uuid "a96a4512-64da-45c9-8991-7688ba8b5e1b")
 		)
 		(pin "2"
-			(uuid "b23fcd74-c64b-415f-bfa2-a264e624fe22")
+			(uuid "b23fcd74-c64b-415f-bfa2-a264e624fe23")
 		)
 		(pin "3"
-			(uuid "53d85342-948c-4345-89cc-6f3515756c46")
+			(uuid "53d85342-948c-4345-89cc-6f3515756c47")
 		)
 		(pin "1"
-			(uuid "ae522249-2d84-4efc-b804-f48f262468b6")
+			(uuid "ae522249-2d84-4efc-b804-f48f262468b7")
 		)
 		(pin "13"
-			(uuid "a49fb71f-7b04-49f9-8ce2-617f0e633eb0")
+			(uuid "a49fb71f-7b04-49f9-8ce2-617f0e633eb1")
 		)
 		(pin "9"
-			(uuid "b329c925-fd9d-44c4-8b4a-88222ec69c10")
+			(uuid "b329c925-fd9d-44c4-8b4a-88222ec69c11")
 		)
 		(pin "5"
-			(uuid "f8d8803a-efef-46da-9456-31867f4d7013")
+			(uuid "f8d8803a-efef-46da-9456-31867f4d7014")
 		)
 		(pin "12"
-			(uuid "d9edbb68-0635-43f9-a36b-404ae8e29519")
+			(uuid "d9edbb68-0635-43f9-a36b-404ae8e2951a")
 		)
 		(pin "8"
-			(uuid "bb5b118e-cc7c-49d1-b658-729a8d90dca4")
+			(uuid "bb5b118e-cc7c-49d1-b658-729a8d90dca5")
 		)
 		(pin "10"
-			(uuid "0dc908e5-0679-4228-980f-ce6744731fa7")
+			(uuid "0dc908e5-0679-4228-980f-ce6744731fa8")
 		)
 		(pin "11"
-			(uuid "fff4dd95-f631-4943-a939-0653f0490d50")
+			(uuid "fff4dd95-f631-4943-a939-0653f0490d51")
 		)
 		(pin "14"
-			(uuid "aa9ba7a7-0707-48fc-8370-7af4f3cc7a25")
+			(uuid "aa9ba7a7-0707-48fc-8370-7af4f3cc7a26")
 		)
 		(pin "15"
-			(uuid "6b4dbeca-f2e6-449a-9e6b-d95a02910329")
+			(uuid "6b4dbeca-f2e6-449a-9e6b-d95a0291032a")
 		)
 		(pin "16"
-			(uuid "ec336c3c-2ba4-40c8-af48-faa1e13f549b")
+			(uuid "ec336c3c-2ba4-40c8-af48-faa1e13f549c")
 		)
 		(instances
 			(project ""
@@ -11527,7 +11788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 204.47 97.79 0)
 			(effects
 				(font
@@ -11555,10 +11816,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "482490ea-0250-45d6-93b9-a0efdc778331")
+			(uuid "482490ea-0250-45d6-93b9-a0efdc778335")
 		)
 		(pin "2"
-			(uuid "7cb0c054-d1a3-4cc5-b848-82f66983a620")
+			(uuid "7cb0c054-d1a3-4cc5-b848-82f66983a624")
 		)
 		(instances
 			(project ""
@@ -11595,7 +11856,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 266.7 21.59 0)
 			(effects
 				(font
@@ -12136,7 +12397,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 266.7 30.48 0)
 			(effects
 				(font
@@ -12249,10 +12510,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "482490ea-0250-45d6-93b9-a0efdc778331")
+			(uuid "482490ea-0250-45d6-93b9-a0efdc778336")
 		)
 		(pin "2"
-			(uuid "7cb0c054-d1a3-4cc5-b848-82f66983a620")
+			(uuid "7cb0c054-d1a3-4cc5-b848-82f66983a625")
 		)
 		(instances
 			(project ""
@@ -12334,10 +12595,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "482490ea-0250-45d6-93b9-a0efdc778331")
+			(uuid "482490ea-0250-45d6-93b9-a0efdc778337")
 		)
 		(pin "2"
-			(uuid "7cb0c054-d1a3-4cc5-b848-82f66983a620")
+			(uuid "7cb0c054-d1a3-4cc5-b848-82f66983a626")
 		)
 		(instances
 			(project ""
@@ -12748,7 +13009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 39.0652 54.61 0)
 			(effects
 				(font
@@ -12767,6 +13028,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 38.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AISHI"
+			(at 38.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part number" "EWH1EM220D11OT"
 			(at 38.1 50.8 0)
 			(effects
 				(font
@@ -12844,7 +13123,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "429dafd2-7c54-4f1a-8a8f-19a7046efbd2")
+			(uuid "429dafd2-7c54-4f1a-8a8f-19a7046efbd5")
 		)
 		(instances
 			(project ""
