@@ -1,0 +1,21 @@
+Id;Designator;Footprint;Quantity;Designation;Supplier and ref
+1;D4;D_DO-41_SOD81_P12.70mm_Horizontal;1;11DQ06;
+2;R4,R1,R2,R3;R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;4;4k7;
+3;L1;L_Radial_D7.2mm_P3.00mm_Murata_1700;1;330u;
+4;U5;HDSP-7401;1;FYS-3911BUHR-21;
+5;R14,R17,R16,R5,R18,R6,R8;R_1206_3216Metric_Pad1.30x1.75mm_HandSolder;7;2k;
+6;R20,R19;R_1206_3216Metric_Pad1.30x1.75mm_HandSolder;2;47k;
+7;D1,D2,D5,D3;LED_D5.0mm;4;LED;
+8;U0;DIP-8_W7.62mm;1;NE555P;
+9;SW1;SW_PUSH_6mm_H4.3mm;1;SW_Push;
+10;U3,U2;DIP-16_W7.62mm_Socket_LongPads;2;4027;
+11;C4;C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;1;100n;
+12;R11,R9,R7,R12,R10,R15;R_1206_3216Metric_Pad1.30x1.75mm_HandSolder;6;10k;
+13;C1;CP_Radial_D5.0mm_P2.00mm;1;22u;
+14;SW2;SW_Slide_SPDT_Straight_CK_OS102011MS2Q;1;SW_SPDT;
+15;J1;TerminalBlock_MetzConnect_Type011_RT05502HBLC_1x02_P5.00mm_Horizontal;1;~;
+16;C5;C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;1;10u;
+17;C2;CP_Radial_D5.0mm_P2.00mm;1;220u;
+18;C3;C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;1;1u;
+19;U4;DIP-16_W7.62mm_Socket_LongPads;1;74LS47;
+20;U1;DIP-8_W7.62mm;1;LM2574N-5;

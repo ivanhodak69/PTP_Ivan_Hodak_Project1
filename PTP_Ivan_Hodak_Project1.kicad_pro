@@ -449,7 +449,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -506,8 +506,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "./",
-      "plot": "",
-      "pos_files": "",
+      "plot": "manufacturing/",
+      "pos_files": "Component/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -609,6 +609,12 @@
           "label": "Manufacturer part number",
           "name": "Manufacturer part number",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufcaturer",
+          "name": "Manufcaturer",
+          "show": false
         }
       ],
       "filter_string": "",
